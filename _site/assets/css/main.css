@@ -1,0 +1,22 @@
+.service-button {
+  color: #ffffff;
+  background: #535442;
+  font-size: 1.15rem;
+}
+
+.service-button:hover {
+  background: none;
+  color: #535442;
+}
+
+body {
+  font-family: 'LaLuxesSerif', serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'NewIconScript';
+}
+
+.review {
+  font-family: 'Montserrat';
+}
