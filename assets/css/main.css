@@ -20,3 +20,14 @@ h1, h2, h3, h4, h5 {
 .review {
   font-family: 'Montserrat';
 }
+
+.subscribe-button {
+  color: #535442 !important;
+  background-color: #f6f2ed !important; 
+  font-size: 5rem;
+}
+
+.subscribe-button:hover {
+  background-color: #535442 !important;
+  color: #f6f2ed !important;
+}
