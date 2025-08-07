@@ -1,0 +1,14 @@
+<div class="accordion-item">
+    <h1 class="accordion-header review">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapse{{item.id}}" aria-expanded="false" aria-controls="collapse{{item.id}}"
+            style="bs-accordion-active-bg: #f6f2ed; --bs-accordion-active-bg: #f6f2ed; font-size: 1.15rem; font-weight: 500;">
+            {{item.question}}
+        </button>
+    </h1>
+    <div id="collapse{{item.id}}" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+            {{item.answer}}
+        </div>
+    </div>
+</div>

@@ -1,0 +1,21 @@
+---
+layout: default
+title: FAQ
+---
+
+{%include hero/hero.html
+large_url="/assets/images/Contact/Contact_Hero_16_9_large.png"
+small_url="/assets/images/Contact/Contact_Hero_3_2_small.png"
+text_overlay="FAQ"
+alt="Frequently Asked Questions at Simply You" %}
+
+
+<br /><br />
+<div class="accordion review" id="accordionExample">
+    {% for item in site.data.faq %}
+        {% include block/faq_item.html 
+            item=item
+        %}
+    {% endfor %}
+</div>
+<br /><br />
