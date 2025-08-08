@@ -2,8 +2,6 @@ url: "https://simplyyounurse.com" # the base hostname & protocol for your site, 
 baseurl: "/" # the subpath of your site, e.g. /blog
 title: "Simply You" # the name of your site, e.g. ACME Corp.
 plugins: ["jekyll-sitemap"] # Jekyll plugins to use
-description: "Simply You - Nurse Aesthetics. Real Expertise. Real Beauty."
-color-0: "#ffffff" # background color for the site (White)
-color-1: "#f6f2ed" # primary color for the site (Pink)
-color-2: "#535442" # secondary color for the site (Olive)
-color-3: "#2b2b2b" # accent color for the site (Black)
+description: "Simply You - Nurse Aesthetics. Real Expertise. Real Beauty. Your Premier Destination for Nursing Aesthetics in Savage/Prior Lake, MN. Providing tailored treatments to help you reach your aesthetic goals with a focus on natural and subtle enhancements."
+short-description: "Simply You - Nurse Aesthetics. Real Expertise. Real Beauty. Your Premier Destination for Nursing Aesthetics in Savage/Prior Lake, MN."
+
