@@ -1,0 +1,35 @@
+---
+layout: default
+title: Blog
+---
+
+{%include hero/hero.html
+large_url="/assets/images/Blog/Blog_Hero_16_9_large.png"
+small_url="/assets/images/Blog/Blog_Hero_3_2_small.png"
+text_overlay="Blog"
+alt="Blog for Simply You" %}
+
+<div class="album py-5 bg-light">
+    <div class="container">
+        <div class="row">
+            {% for post in site.posts %}
+            <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                    <img class="card-img-top" src="{{post.image}}" alt="{{post.title}}">
+                    <div class="card-body">
+                        <p class="card-text">{{post.excerpt}}</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a href="{{post.url}}">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                </a>
+                            </div>
+                            <small>3 mins</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
