@@ -1,9 +1,162 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    
     <url>
-        <loc>https://www.simplyyounurse.com/Services/Botox.html</loc>
+        <loc>/404.html</loc>
+        <lastmod>2025-08-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
     </url>
+    
     <url>
-        <loc>https://www.simplyyounurse.com/</loc>
+        <loc>/about.html</loc>
+        <lastmod>2025-08-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
     </url>
+    
+    <url>
+        <loc>/blog.html</loc>
+        <lastmod>2025-08-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>/services/botox.html</loc>
+        <lastmod>2025-08-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>/services/chemical_peel.html</loc>
+        <lastmod>2025-08-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>/services/consultation.html</loc>
+        <lastmod>2025-08-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>/contact.html</loc>
+        <lastmod>2025-08-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>/disclaimer.html</loc>
+        <lastmod>2025-08-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>/faq.html</loc>
+        <lastmod>2025-08-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>/services/filler.html</loc>
+        <lastmod>2025-08-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>/services/hair_restoration.html</loc>
+        <lastmod>2025-08-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>/</loc>
+        <lastmod>2025-08-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>/services/microneedling.html</loc>
+        <lastmod>2025-08-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>/promotions.html</loc>
+        <lastmod>2025-08-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>/services/sculptra.html</loc>
+        <lastmod>2025-08-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>/sitemap.xml</loc>
+        <lastmod>2025-08-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>/skincare.html</loc>
+        <lastmod>2025-08-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>/services/undereye_rejuvenation.html</loc>
+        <lastmod>2025-08-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+
+    
+    <url>
+        <loc>/2025/07/01/2-best-treatments-for-youthful-skin-sculptra-prp.html</loc>
+        <lastmod>2025-08-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>/2025/03/01/how-to-make-botox-last-longer.html</loc>
+        <lastmod>2025-08-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>/2024/11/01/4-body-parts-to-botox.html</loc>
+        <lastmod>2025-08-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>/2024/07/01/how-botox-works-benefits.html</loc>
+        <lastmod>2025-08-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+
 </urlset>

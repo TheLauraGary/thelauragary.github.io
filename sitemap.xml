@@ -1,9 +1,27 @@
+---
+layout: null
+search: exclude
+---
+
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    {% for page in site.pages %}
     <url>
-        <loc>https://www.simplyyounurse.com/Services/Botox.html</loc>
+        <loc>{{page.url}}</loc>
+        <lastmod>{{site.time | date: '%Y-%m-%d' }}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
     </url>
+    {% endfor %}
+
+    {% for post in site.posts %}
     <url>
-        <loc>https://www.simplyyounurse.com/</loc>
+        <loc>{{post.url}}</loc>
+        <lastmod>{{site.time | date: '%Y-%m-%d' }}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
     </url>
+    {% endfor %}
+
 </urlset>
