@@ -1,0 +1,131 @@
+---
+layout: default
+title: Skin Hydrators
+---
+
+{%include hero/hero.html
+large_url="/assets/images/Services/Images/Skin_Hydrators_Hero_16_9_large.png"
+small_url="/assets/images/Services/Images/Skin_Hydrators_Hero_3_2_small.png"
+text_overlay="Skin Hydrators"
+alt="Skin Hydrators at Simply You" %}
+
+
+<section class="py-4 py-xl-5" style="background: #f6f2ed;--bs-light: #f6f2ed;--bs-light-rgb: 246,242,237;">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-6 d-none d-lg-block">
+                <div class="h-100 align-items-center align-content-center">
+                    <img class="rounded img-fluid border border-0" width="600" height="800"
+                        src="/assets/images/Services/Images/Skin_Hydrators_3_4_large.png"
+                        alt="Patient receiving Skin Hydrator Treatment at Simply You">
+                </div>
+            </div>
+            <div class="col-lg-6 d-lg-none">
+                <div class="h-100 align-items-center align-content-center">
+                    <img class="rounded img-fluid border border-0" width="780" height="520"
+                        src="/assets/images/Services/Images/Skin_Hydrators_3_2_small.png"
+                        alt="Patient receiving Skin Hydrator Treatment at Simply You">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div
+                    class="text-white bg-primary border rounded border-0 h-100 align-items-center align-content-center p-4 py-4">
+                    <h5 class="review">Deep Hydration &#8226; Renewed Texture &#8226; Natural Glow</h5>
+                    <br />
+                    <p class="mb-4 review">
+                        At Simply You, Nurse Aesthetics, our Skin Hydrators treatment is a customized, medical-grade 
+                        hydration boost designed to rejuvenate skin quality at the foundational level. Unlike traditional 
+                        dermal fillers that restore volume, Skin Hydrators work beneath the surface to improve hydration, 
+                        elasticity, and overall skin texture for a smoother, more radiant look that feels fresh and naturally healthy. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="py-4 py-xl-5">
+    <div class="container">
+        <div class="row mb-lg-5">
+            <div class="col-md-10 col-xl-8 text-center mx-auto">
+                <h2>
+                    What Skin Hydrators Do
+                </h2>
+                <p class="review">Skin Hydrators are advanced hyaluronic-acid-based treatments that</p>
+                <ul class="review text-start">
+                    <li>Deeply hydrate dehydrated or dry skin</li>
+                    <li>Enhance elasticity, firmness, and suppleness</li>
+                    <li>Smooth fine lines caused by dehydration</li>
+                    <li>Improve overall skin texture and radiance</li>
+                    <li>Support <b>healthier-looking, youthful skin quality</b> without changing your natural contours</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="py-4 py-xl-5" style="background: #f6f2ed;--bs-light: #f6f2ed;--bs-light-rgb: 246,242,237;">
+    <div class="container">
+        <div class="row mb-lg-5">
+            <div class="col-md-10 col-xl-8 text-center mx-auto">
+                <h2>
+                    Where They Can Be Used
+                </h2>
+                <p class="review">Skin Hydrators are versatile and can be applied to areas including</p>
+                <ul class="review text-start">
+                    <li><b>Radial Cheek Lines:</b> improve fine lines and hydration</li>
+                    <li><b>Neck:</b> to minimize dehydration lines and crepey texture</li>
+                    <li><b>Lower face:</b> to enhance overall texture and hydration</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="py-4 py-xl-5">
+    <div class="container">
+        <div class="row mb-lg-5">
+            <div class="col-md-10 col-xl-8 text-center mx-auto">
+                <h2>How It Works</h2>
+                <p class="review">Using tiny formulations of hyaluronic acid, a substance that naturally attracts and holds water, we gently deliver hydration beneath the skin’s surface where it’s needed most. The treatment helps</p>
+                <ul class="review text-start">
+                    <li><b>Pull in and retain moisture,</b> visibly plumping skin</li>
+                    <li><b>Support elasticity and firmness</b></li>
+                    <li><b>Improve texture and radiance over time</b><br />
+                    Results are gradual and natural, enhancing your skin’s overall condition without dramatic volume changes. 
+                    </li>
+                </ul>
+                <p class="review">
+                    Every Skin Hydrators session at Simply You is <b>tailored to your unique needs</b>, ensuring a comfortable experience and beautiful, natural results.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="py-4 py-xl-5" style="background: #f6f2ed;--bs-light: #f6f2ed;--bs-light-rgb: 246,242,237;">
+    <div class="container">
+        <div class="row mb-lg-5">
+            <div class="col-md-10 col-xl-8 text-center mx-auto">
+                <h2>Treatment at a glance</h2>
+                <ul class="review text-start">
+                    <li><b>Procedure Length:</b> 45 minutes</li>
+                    <li><b>Results:</b> Patient will notice improvement starting at 2 weeks and full results at 4 weeks and will last up to 6 months</li>
+                    <li><b>Recovery:</b> Mild swelling and bruising for a few days with normal activities being resumed immediately</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-4 py-xl-5">
+    <div class="container text-center">
+        <h2>Frequently Asked Questions</h2>
+        <div class="accordion review" id="accordionExample">
+            {% for item in site.data.skin_hydrators %}
+                {% include block/faq_item.html 
+                    item=item
+                %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+
+{%include block/faq_block.html%}

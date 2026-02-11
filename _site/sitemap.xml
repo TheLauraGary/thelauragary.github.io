@@ -4,126 +4,140 @@
     
     <url>
         <loc>http://localhost:4000/404.html</loc>
-        <lastmod>2025-08-13</lastmod>
+        <lastmod>2026-02-11</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>http://localhost:4000/about.html</loc>
-        <lastmod>2025-08-13</lastmod>
+        <lastmod>2026-02-11</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>http://localhost:4000/blog.html</loc>
-        <lastmod>2025-08-13</lastmod>
+        <lastmod>2026-02-11</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>http://localhost:4000/services/botox.html</loc>
-        <lastmod>2025-08-13</lastmod>
+        <lastmod>2026-02-11</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>http://localhost:4000/services/chemical_peel.html</loc>
-        <lastmod>2025-08-13</lastmod>
+        <lastmod>2026-02-11</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>http://localhost:4000/services/consultation.html</loc>
-        <lastmod>2025-08-13</lastmod>
+        <lastmod>2026-02-11</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>http://localhost:4000/contact.html</loc>
-        <lastmod>2025-08-13</lastmod>
+        <lastmod>2026-02-11</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>http://localhost:4000/disclaimer.html</loc>
-        <lastmod>2025-08-13</lastmod>
+        <lastmod>2026-02-11</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>http://localhost:4000/faq.html</loc>
-        <lastmod>2025-08-13</lastmod>
+        <lastmod>2026-02-11</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>http://localhost:4000/services/filler.html</loc>
-        <lastmod>2025-08-13</lastmod>
+        <lastmod>2026-02-11</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>http://localhost:4000/services/hair_restoration.html</loc>
-        <lastmod>2025-08-13</lastmod>
+        <lastmod>2026-02-11</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>http://localhost:4000/</loc>
-        <lastmod>2025-08-13</lastmod>
+        <lastmod>2026-02-11</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>http://localhost:4000/services/microneedling.html</loc>
-        <lastmod>2025-08-13</lastmod>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/services/neck_restoration.html</loc>
+        <lastmod>2026-02-11</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>http://localhost:4000/promotions.html</loc>
-        <lastmod>2025-08-13</lastmod>
+        <lastmod>2026-02-11</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>http://localhost:4000/services/sculptra.html</loc>
-        <lastmod>2025-08-13</lastmod>
+        <lastmod>2026-02-11</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>http://localhost:4000/sitemap.xml</loc>
-        <lastmod>2025-08-13</lastmod>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/services/skin_hydrators.html</loc>
+        <lastmod>2026-02-11</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>http://localhost:4000/skincare.html</loc>
-        <lastmod>2025-08-13</lastmod>
+        <lastmod>2026-02-11</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>http://localhost:4000/services/undereye_rejuvenation.html</loc>
-        <lastmod>2025-08-13</lastmod>
+        <lastmod>2026-02-11</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
@@ -132,28 +146,28 @@
     
     <url>
         <loc>http://localhost:4000/2025/07/01/2-best-treatments-for-youthful-skin-sculptra-prp.html</loc>
-        <lastmod>2025-08-13</lastmod>
+        <lastmod>2026-02-11</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>http://localhost:4000/2025/03/01/how-to-make-botox-last-longer.html</loc>
-        <lastmod>2025-08-13</lastmod>
+        <lastmod>2026-02-11</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>http://localhost:4000/2024/11/01/4-body-parts-to-botox.html</loc>
-        <lastmod>2025-08-13</lastmod>
+        <lastmod>2026-02-11</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>http://localhost:4000/2024/07/01/how-botox-works-benefits.html</loc>
-        <lastmod>2025-08-13</lastmod>
+        <lastmod>2026-02-11</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
