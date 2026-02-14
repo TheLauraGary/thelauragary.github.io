@@ -1,7 +1,7 @@
 url: "https://simplyyounurse.com" # the base hostname & protocol for your site, e.g. http://example.com
 plugins: []
 baseurl: "/" # the subpath of your site, e.g. /blog
-title: "Simply You" # the name of your site, e.g. ACME Corp.
+title: "Simply You Nurse Aesthetics" # the name of your site, e.g. ACME Corp.
 description: "Simply You - Nurse Aesthetics. Real Expertise. Real Beauty. Your Premier Destination for Nursing Aesthetics in Savage/Prior Lake, MN. Providing tailored treatments to help you reach your aesthetic goals with a focus on natural and subtle enhancements."
 short-description: "Simply You - Nurse Aesthetics. Real Expertise. Real Beauty. Your Premier Destination for Nursing Aesthetics in Savage/Prior Lake, MN."
 
