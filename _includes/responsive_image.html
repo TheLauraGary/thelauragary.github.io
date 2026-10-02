@@ -1,9 +1,11 @@
 {% assign large_avif = include.large_url | replace: '.png', '.avif' %}
 {% assign small_avif = include.small_url | replace: '.png', '.avif' %}
+{% assign small_avif_390 = include.small_url | replace: '.png', '-390.avif' %}
 <picture>
   <source media="(min-width: 992px)" srcset="{{ large_avif }}" type="image/avif" width="600" height="800">
   <source media="(min-width: 992px)" srcset="{{ include.large_url }}" type="image/png" width="600" height="800">
-  <source srcset="{{ small_avif }}" type="image/avif" width="780" height="520">
+  <source srcset="{{ small_avif_390 }} 390w, {{ small_avif }} 780w"
+    sizes="calc(100vw - 24px)" type="image/avif" width="780" height="520">
   <img class="rounded img-fluid border border-0" width="780" height="520"
     src="{{ include.small_url }}" alt="{{ include.alt }}" loading="lazy" decoding="async">
 </picture>
