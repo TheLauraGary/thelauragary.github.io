@@ -1,3 +1,19 @@
+@font-face {
+  font-family: 'LaLuxesSerif';
+  src: url('/assets/fonts/LaLuxesSerif.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NewIconScript';
+  src: url('/assets/fonts/NewIconScript.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 .service-button {
   color: #ffffff;
   background: #535442;
@@ -11,6 +27,7 @@
 
 body {
   font-family: 'LaLuxesSerif', serif;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5 {
@@ -30,4 +47,23 @@ h1, h2, h3, h4, h5 {
 .subscribe-button:hover {
   background-color: #535442 !important;
   color: #f6f2ed !important;
+}
+
+.hero {
+  height: 600px;
+}
+
+.hero h1 {
+  color: #000;
+  font-size: 5rem;
+}
+
+@media (max-width: 767.98px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+}
+
+img {
+  max-width: 100%;
 }

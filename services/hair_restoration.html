@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Hair Restoration & Medical Aesthetics in Prior Lake
+title: Hair Restoration in Prior Lake, MN
+description: Personalized hair restoration treatments in Prior Lake designed to support healthier follicles and encourage natural hair growth.
+service_name: Hair Restoration Treatments
 ---
 
 {%include hero/hero.html
@@ -13,18 +15,12 @@ alt="Hair Restoration at Simply You" %}
 <section class="py-4 py-xl-5" style="background: #f6f2ed;--bs-light: #f6f2ed;--bs-light-rgb: 246,242,237;">
     <div class="container">
         <div class="row text-center">
-            <div class="col-lg-6 d-none d-lg-block">
+            <div class="col-lg-6">
                 <div class="h-100 align-items-center align-content-center">
-                    <img class="rounded img-fluid border border-0" width="600" height="800"
-                        src="/assets/images/Services/Images/Hair_Restoration_3_4_large.png"
-                        alt="Patient receiving Hair Restoration Treatment at Simply You">
-                </div>
-            </div>
-            <div class="col-lg-6 d-lg-none">
-                <div class="h-100 align-items-center align-content-center">
-                    <img class="rounded img-fluid border border-0" width="780" height="520"
-                        src="/assets/images/Services/Images/Hair_Restoration_3_2_small.png"
-                        alt="Patient receiving Hair Restoration Treatment at Simply You">
+                    {% include responsive_image.html
+                    large_url="/assets/images/Services/Images/Hair_Restoration_3_4_large.png"
+                    small_url="/assets/images/Services/Images/Hair_Restoration_3_2_small.png"
+                    alt="Patient receiving hair restoration treatment at Simply You" %}
                 </div>
             </div>
             <div class="col-lg-6">

@@ -1,1 +1,22 @@
-{"short_name":"Simply You","name":"Simply You - Nurse Aesthetics","icons":[{"src":"https://www.simplyyounurse.com/assets/img/Favicons/Favicon-512.png","type":"image/png","sizes":"512x512"},{"src":"https://www.simplyyounurse.com/assets/img/Favicons/Favicon-512.png","type":"image/png","sizes":"512x512"}],"display":"fullscreen"}
+{
+  "short_name": "Simply You",
+  "name": "Simply You Nurse Aesthetics",
+  "description": "Natural-looking medical aesthetics in Prior Lake, Minnesota.",
+  "icons": [
+    {
+      "src": "/assets/images/Favicons/Favicon-180.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    },
+    {
+      "src": "/assets/images/Favicons/Favicon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f6f2ed",
+  "theme_color": "#535442"
+}

@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Blog | Medical Aesthetics in Prior Lake
+title: Aesthetic Treatment Blog
+description: Practical, nurse-led guidance about Botox, Sculptra, PRP, skin health and natural-looking aesthetic treatments from Simply You in Prior Lake.
 ---
 
 {%include hero/hero.html
@@ -15,14 +16,17 @@ alt="Blog for Simply You" %}
             {% for post in site.posts %}
             <div class="col-md-4">
                 <div class="card mb-4 box-shadow">
-                    <img class="card-img-top" src="{{post.image}}" alt="{{post.title}}">
+                    {% assign post_avif = post.image | replace: '.png', '.avif' %}
+                    <picture>
+                        <source srcset="{{ post_avif }}" type="image/avif">
+                        <img class="card-img-top" src="{{ post.image }}" alt="{{ post.title }}"
+                            width="512" height="512" loading="lazy" decoding="async">
+                    </picture>
                     <div class="card-body">
                         <p class="card-text review">{{post.excerpt}}</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                                <a href="{{post.url}}">
-                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                </a>
+                                <a href="{{post.url}}" class="btn btn-sm btn-outline-secondary">View</a>
                             </div>
                             <small>3 mins</small>
                         </div>

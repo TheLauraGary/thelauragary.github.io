@@ -1,6 +1,7 @@
 ---
 layout: default
-title: About Me | Medical Aesthetics in Prior Lake
+title: About Laura Gary, RN
+description: Meet Laura Gary, an experienced registered nurse providing evidence-based, personalized aesthetic care at Simply You in Prior Lake, Minnesota.
 ---
 
 {%include hero/hero.html 
@@ -12,18 +13,12 @@ alt="Laura Gary at Simply You" %}
 <section class="py-4 py-xl-5" style="background: #f6f2ed;--bs-light: #f6f2ed;--bs-light-rgb: 246,242,237;">
     <div class="container">
         <div class="row text-center">
-            <div class="col-lg-6 d-none d-lg-block">
+            <div class="col-lg-6">
                 <div class="h-100 align-items-center align-content-center">
-                    <img class="rounded img-fluid border border-0" width="600" height="800"
-                        src="/assets/images/About/About_3_4_large.png"
-                        alt="Patient receiving Hair Restoration Treatment at Simply You">
-                </div>
-            </div>
-            <div class="col-lg-6 d-lg-none">
-                <div class="h-100 align-items-center align-content-center">
-                    <img class="rounded img-fluid border border-0" width="780" height="520"
-                        src="/assets/images/About/About_3_2_small.png"
-                        alt="Patient receiving Hair Restoration Treatment at Simply You">
+                    {% include responsive_image.html
+                    large_url="/assets/images/About/About_3_4_large.png"
+                    small_url="/assets/images/About/About_3_2_small.png"
+                    alt="Laura Gary, owner and aesthetic nurse at Simply You" %}
                 </div>
             </div>
             <div class="col-lg-6">
@@ -67,7 +62,7 @@ alt="Laura Gary at Simply You" %}
         <div class="row mb-lg-4">
             <div class="col-md-10 col-xl-8 text-center mx-auto">
                 <img class="img-fluid mb-4" src="/assets/images/About/Main_Stamp_Smoke.png"
-                    alt="Simply You Logo">
+                    alt="Simply You Nurse Aesthetics logo" width="1500" height="1200" loading="lazy" decoding="async">
             </div>
         </div>
     </div>
